@@ -1,0 +1,34 @@
+p {
+  line-height: 2rem;
+}
+
+
+.parallax-container {
+  min-height: 250px;
+  line-height: 0;
+  height: auto;
+
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+icon-block .material-icons {
+  font-size: inherit;
+}
